@@ -1,16 +1,40 @@
-# spotify_lyrics
 
-A new Flutter project.
+# Music Lyrics Story Style
+
+A simple Flutter and Dart project for generating story-style images with song lyrics, inspired by Spotify's design.
+
+## Features
+
+- Beautiful story-style card with dynamic colors
+- Supports both English and Persian (Farsi) text
+- Works on Android and iOS
+- Saves output image for sharing
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Install dependencies:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter pub get
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Run the project:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter run
+```
+
+## Requirements
+
+- Flutter SDK (latest stable version)
+- Android/iOS device or emulator
+
+
+## Fonts
+
+- [CircularSpotifyText](https://github.com/spotify)
+- [Roboto](https://fonts.google.com/specimen/Roboto) – for Persian lyrics
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
